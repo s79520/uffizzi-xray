@@ -13,6 +13,11 @@ services:
     restart: always
     ports:
       - "80:80"
+      - "443:443"
+      - "10000:10000"
+      - "20000:20000"
+      - "30000:30000"
+      - "40000:40000"
     privileged: true
     depends_on:
       - app
